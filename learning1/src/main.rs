@@ -21,10 +21,15 @@ fn main() {
 
 //tuple
 
-    let mut tup: (i32, bool, char) = (1, true, 's');
+    // let mut tup: (i32, bool, char) = (1, true, 's');
 
-    tup.0 = 10;
+    // tup.0 = 10;
 
-    println!("{}", tup.0);
+    // println!("{}", tup.0);
     
+//array
+    // let mut arr: [i32; 5] = [1, 2, 3, 4, 5];
+    // arr[4] = 3;
+
+    // println!("{}", arr[4]);
 }
