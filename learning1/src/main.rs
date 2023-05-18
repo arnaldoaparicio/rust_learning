@@ -1,3 +1,5 @@
+use std::io;
+
 fn main() {
     // println!("Hello, world!");
     // let x = 4; //implicit type assignment
@@ -32,4 +34,16 @@ fn main() {
     // arr[4] = 3;
 
     // println!("{}", arr[4]);
+
+
+
+// console input
+
+    println!("Hello world!");
+    let mut input = String::new();
+
+    io::stdin().read_line(&mut input).expect("failed to read line");
+    println!("{}", input);
+
+
 }
